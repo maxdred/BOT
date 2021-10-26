@@ -1,0 +1,178 @@
+13:40:39 | Bot Restart_Telegram launched.
+Updates were skipped successfully.
+13:48:08 | Bot Telegram-Grabber launched.
+Pyrogram v1.0.7, Copyright (C) 2017-2020 Dan <https://github.com/delivrance>
+Licensed under the terms of the GNU Lesser General Public License v3 or later (LGPLv3+)
+
+13:48:59 | Bot Telegram-Grabber launched.
+Pyrogram v1.0.7, Copyright (C) 2017-2020 Dan <https://github.com/delivrance>
+Licensed under the terms of the GNU Lesser General Public License v3 or later (LGPLv3+)
+
+13:50:46 | Bot Telegram-Grabber launched.
+Pyrogram v1.0.7, Copyright (C) 2017-2020 Dan <https://github.com/delivrance>
+Licensed under the terms of the GNU Lesser General Public License v3 or later (LGPLv3+)
+
+shield() got an unexpected keyword argument 'loop'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 182, in handler_worker
+    await parser(update, users, chats)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 78, in message_parser
+    return await pyrogram.types.Message._parse(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/types/messages_and_media/message.py", line 573, in _parse
+    sticker = await types.Sticker._parse(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/types/messages_and_media/sticker.py", line 135, in _parse
+    set_name = await Sticker._get_sticker_set_name(client.send, input_sticker_set_id)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/async_lru.py", line 237, in wrapped
+    return (yield from asyncio.shield(fut, loop=_loop))
+TypeError: shield() got an unexpected keyword argument 'loop'
+shield() got an unexpected keyword argument 'loop'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 182, in handler_worker
+    await parser(update, users, chats)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 78, in message_parser
+    return await pyrogram.types.Message._parse(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/types/messages_and_media/message.py", line 573, in _parse
+    sticker = await types.Sticker._parse(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/types/messages_and_media/sticker.py", line 135, in _parse
+    set_name = await Sticker._get_sticker_set_name(client.send, input_sticker_set_id)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/async_lru.py", line 237, in wrapped
+    return (yield from asyncio.shield(fut, loop=_loop))
+TypeError: shield() got an unexpected keyword argument 'loop'
+shield() got an unexpected keyword argument 'loop'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 182, in handler_worker
+    await parser(update, users, chats)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 78, in message_parser
+    return await pyrogram.types.Message._parse(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/types/messages_and_media/message.py", line 573, in _parse
+    sticker = await types.Sticker._parse(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/types/messages_and_media/sticker.py", line 135, in _parse
+    set_name = await Sticker._get_sticker_set_name(client.send, input_sticker_set_id)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/async_lru.py", line 237, in wrapped
+    return (yield from asyncio.shield(fut, loop=_loop))
+TypeError: shield() got an unexpected keyword argument 'loop'
+16:02:20 | Bot Telegram-Grabber launched.
+Pyrogram v1.0.7, Copyright (C) 2017-2020 Dan <https://github.com/delivrance>
+Licensed under the terms of the GNU Lesser General Public License v3 or later (LGPLv3+)
+
+16:02:40 | Bot Telegram-Grabber launched.
+Pyrogram v1.0.7, Copyright (C) 2017-2020 Dan <https://github.com/delivrance>
+Licensed under the terms of the GNU Lesser General Public License v3 or later (LGPLv3+)
+
+[400 CHAT_ADMIN_REQUIRED]: The method requires chat admin privileges (caused by "messages.SendMedia")
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 210, in handler_worker
+    await self.loop.run_in_executor(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/max/telegram-grabber/restart_bot/../python_bot/bot_grabber.py", line 40, in send_post
+    send.forward(bd.get_channel(), as_copy=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/sync.py", line 50, in async_to_sync_wrap
+    return asyncio.run_coroutine_threadsafe(coroutine, loop).result()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/concurrent/futures/_base.py", line 445, in result
+    return self.__get_result()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/concurrent/futures/_base.py", line 390, in __get_result
+    raise self._exception
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/types/messages_and_media/message.py", line 2810, in forward
+    return await send_media(file_id=file_id, file_ref=file_ref, caption=caption, parse_mode="html")
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/methods/messages/send_cached_media.py", line 98, in send_cached_media
+    r = await self.send(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/methods/advanced/send.py", line 77, in send
+    r = await self.session.send(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/session/session.py", line 441, in send
+    return await self._send(data, timeout=timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/session/session.py", line 411, in _send
+    RPCError.raise_it(result, type(data))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 78, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.ChatAdminRequired: [400 CHAT_ADMIN_REQUIRED]: The method requires chat admin privileges (caused by "messages.SendMedia")
+[400 CHAT_ADMIN_REQUIRED]: The method requires chat admin privileges (caused by "messages.SendMedia")
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 210, in handler_worker
+    await self.loop.run_in_executor(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/max/telegram-grabber/restart_bot/../python_bot/bot_grabber.py", line 40, in send_post
+    send.forward(bd.get_channel(), as_copy=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/sync.py", line 50, in async_to_sync_wrap
+    return asyncio.run_coroutine_threadsafe(coroutine, loop).result()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/concurrent/futures/_base.py", line 445, in result
+    return self.__get_result()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/concurrent/futures/_base.py", line 390, in __get_result
+    raise self._exception
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/types/messages_and_media/message.py", line 2810, in forward
+    return await send_media(file_id=file_id, file_ref=file_ref, caption=caption, parse_mode="html")
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/methods/messages/send_cached_media.py", line 98, in send_cached_media
+    r = await self.send(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/methods/advanced/send.py", line 77, in send
+    r = await self.session.send(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/session/session.py", line 441, in send
+    return await self._send(data, timeout=timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/session/session.py", line 411, in _send
+    RPCError.raise_it(result, type(data))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 78, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.ChatAdminRequired: [400 CHAT_ADMIN_REQUIRED]: The method requires chat admin privileges (caused by "messages.SendMedia")
+local variable 'username' referenced before assignment
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 210, in handler_worker
+    await self.loop.run_in_executor(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/max/telegram-grabber/restart_bot/../python_bot/bot_grabber.py", line 39, in send_post
+    send = app.get_messages(username, msg_id)
+UnboundLocalError: local variable 'username' referenced before assignment
+16:05:01 | Bot Telegram-Grabber launched.
+Pyrogram v1.0.7, Copyright (C) 2017-2020 Dan <https://github.com/delivrance>
+Licensed under the terms of the GNU Lesser General Public License v3 or later (LGPLv3+)
+
+Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 380, in start_polling
+    updates = await self.bot.get_updates(limit=limit, offset=offset, timeout=timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/bot/bot.py", line 97, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/bot/base.py", line 208, in request
+    return await api.make_request(self.session, self.server, self.__token, method, data, files,
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/client.py", line 1117, in __aenter__
+    self._resp = await self._coro
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/client.py", line 544, in _request
+    await resp.start(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/client_reqrep.py", line 886, in start
+    with self._timer:
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/helpers.py", line 656, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+timed out
+timed out
+timed out
+timed out
+timed out
+timed out
+timed out
+timed out
+timed out
+Connection failed! Trying again...
+timed out
+timed out
+timed out
+Connection failed! Trying again...
+timed out
+timed out
+timed out
+Connection failed! Trying again...
+timed out
+timed out
+timed out
+timed out
+timed out
+timed out
+timed out
+Connection failed! Trying again...
+timed out
+timed out
+timed out
+Connection failed! Trying again...
+timed out
